@@ -1,0 +1,21 @@
+app:
+  daka-task:
+    cron: 0 0 8 * * ?
+  renxing-push-cipher: nL6GnqR6dw
+  admin-qq: 1277489864
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: fuck-daka
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    url: jdbc:mysql://localhost:3306/fuck_daka?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2b8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
